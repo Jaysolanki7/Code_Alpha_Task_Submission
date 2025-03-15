@@ -1,6 +1,6 @@
 from openai import OpenAI
 import json
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="Enter you are api key")
 class ChatbotMemory:
     def __init__(self, filename="conversation_history.json"):
         self.filename = filename
